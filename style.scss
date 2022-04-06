@@ -20,6 +20,16 @@ a {
   color: black;
 }
 
+.bluechip {
+  color: rgb(97, 176, 255);
+}
+
+.btn {
+  background-color: rgb(97, 176, 255);
+  padding: 0.5rem 2rem;
+  color: white;
+}
+
 .navbar {
   margin: 0 14%;
   min-height: 70px;
@@ -84,9 +94,10 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 77%;
     background-image: url(/img/background.jpg);
     height: 50vh;
+    border-bottom: solid 3px rgb(0, 0, 78);
 
     div {
       margin-left: 4rem;
@@ -104,7 +115,7 @@ a {
       h1 {
         text-shadow: black 2px 2px 5px;
         color: white;
-        font-size: 3.7rem;
+        font-size: 4.5rem;
   
         span {
           color: rgb(55, 150, 245);
@@ -116,7 +127,7 @@ a {
       display: flex;
       flex-direction: column;
       margin-right: 2rem;
-      max-width: 226px;
+      max-width: 250px;
       color: white;
       height: 292px;
 
@@ -133,6 +144,27 @@ a {
         font-size: 1.2rem;
         margin-bottom: 0.5rem;
       }
+    }
+  }
+}
+
+#intro {
+  padding: 2rem 0rem;
+  display: flex;
+  width: 77%;
+  justify-content: center;
+
+  article {
+    width: 42%;
+
+    h1 {
+      margin-bottom: 0.8rem;
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
     }
   }
 }

@@ -19,6 +19,16 @@ a {
   color: black;
 }
 
+.bluechip {
+  color: #61b0ff;
+}
+
+.btn {
+  background-color: #61b0ff;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+
 .navbar {
   margin: 0 14%;
   min-height: 70px;
@@ -84,9 +94,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 77%;
   background-image: url(/img/background.jpg);
   height: 50vh;
+  border-bottom: solid 3px #00004e;
 }
 
 #showcase section div {
@@ -103,7 +114,7 @@ a {
 #showcase section div h1 {
   text-shadow: black 2px 2px 5px;
   color: white;
-  font-size: 3.7rem;
+  font-size: 4.5rem;
 }
 
 #showcase section div h1 span {
@@ -114,7 +125,7 @@ a {
   display: flex;
   flex-direction: column;
   margin-right: 2rem;
-  max-width: 226px;
+  max-width: 250px;
   color: white;
   height: 292px;
 }
@@ -131,5 +142,26 @@ a {
 #showcase section aside h2 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+}
+
+#intro {
+  padding: 2rem 0rem;
+  display: flex;
+  width: 77%;
+  justify-content: center;
+}
+
+#intro article {
+  width: 42%;
+}
+
+#intro article h1 {
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
+}
+
+#intro article p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=style.css.map */
