@@ -16,10 +16,9 @@
   #intro {
     height: fit-content;
   }
-}
-
-#currentcourses .wrapper {
-  margin: 2rem 4rem 0rem 4rem;
+  #currentcourses .wrapper {
+    margin: 2rem 4rem 0rem 4rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -59,8 +58,8 @@
     flex-direction: column;
   }
   #showcase section div figure img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
   }
   #showcase section div h1 {
     font-size: 2.5rem;
