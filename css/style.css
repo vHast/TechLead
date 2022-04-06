@@ -183,4 +183,42 @@ a {
   height: 175px;
   border-radius: 50%;
 }
+
+#currentcourses {
+  width: 100%;
+  text-align: center;
+}
+
+#currentcourses .wrapper {
+  margin: 2rem 14rem 0rem 14rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#currentcourses .wrapper figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 40vh;
+}
+
+#currentcourses .wrapper figure h1 {
+  color: white;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+#currentcourses .wrapper figure a {
+  border-radius: 5px;
+}
+
+#currentcourses .wrapper #soft {
+  background-color: #2c4161;
+}
+
+#currentcourses .wrapper #syst {
+  background-color: #4573c9;
+}
 /*# sourceMappingURL=style.css.map */
