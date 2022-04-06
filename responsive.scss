@@ -27,6 +27,13 @@
   }
 }
 
+#currentcourses {
+  
+  .wrapper {
+    margin: 2rem 4rem 0rem 4rem;
+  }
+}
+
 @media(max-width:768px) {
   /* Section 1.1 Navbar hamburger menu*/
   .hamburger {
@@ -114,4 +121,28 @@
       }
     }
   }
+
+  #currentcourses {
+  
+    .wrapper {
+      margin: 2rem 2rem 0rem 2rem;
+      flex-direction: column;
+
+      figure {
+        min-width: 100%;
+      }
+
+      #soft {
+        margin-right: 0px;
+      }
+
+      #syst {
+        margin-left: 0px;
+        margin-top: 1rem;
+      }
+    }
+  }
 }
+
+
+
