@@ -8,6 +8,8 @@
 /* Section 1.0 - Navbar */
 header {
   background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 li {
@@ -91,6 +93,7 @@ a {
 }
 
 #showcase section {
+  margin-top: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
