@@ -32,6 +32,19 @@
       margin: 2rem 4rem 0rem 4rem;
     }
   }
+
+  #blogs {
+    .wrapper {
+      gap: 5px;
+      margin: 2rem 2rem 0rem 2rem;
+
+      aside {
+        min-height: 37rem;
+        max-height: 50rem;
+        
+      }
+    }
+  }
 }
 
 
@@ -140,6 +153,20 @@
       #syst {
         margin-left: 0px;
         margin-top: 1rem;
+      }
+    }
+  }
+
+  #blogs {
+    .wrapper {
+      flex-direction: column;
+      gap: 0px;
+      margin: 2rem 2rem 0rem 2rem;
+
+      aside {
+        margin-top: 2rem;
+        width: 80%;
+        
       }
     }
   }

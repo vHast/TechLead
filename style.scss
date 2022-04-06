@@ -208,6 +208,7 @@ a {
     margin: 2rem 14rem 0rem 14rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     figure {
       display: flex;
@@ -253,7 +254,7 @@ a {
   .wrapper {
     margin: 2rem 14rem 0rem 14rem;
     display: flex;
-    gap: 5px;
+    gap: 35px;
     align-items: center;
     justify-content: center;
 
@@ -264,28 +265,29 @@ a {
       justify-content: space-around;
       border-top: 10px solid black;
       width: 33%;
-      height: 27rem;
+      min-height: 27rem;
+      max-height: 32rem;
       border-radius: 5px;
       background-color: rgb(214, 214, 214);
 
       h1 {
         padding: 2rem 1rem;
         color: black;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
       }
 
       p {
         align-self: flex-start;
         text-align: left;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding: 0 1.3rem;
       }
 
       .author {
         text-align: right;
         align-self: flex-end;
-        color: rgb(41, 41, 41);
-        font-size: 1rem;
+        color: rgb(83, 83, 83);
+        font-size: 1.1rem;
       }
 
       .btn {

@@ -19,6 +19,14 @@
   #currentcourses .wrapper {
     margin: 2rem 4rem 0rem 4rem;
   }
+  #blogs .wrapper {
+    gap: 5px;
+    margin: 2rem 2rem 0rem 2rem;
+  }
+  #blogs .wrapper aside {
+    min-height: 37rem;
+    max-height: 50rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -98,6 +106,15 @@
   #currentcourses .wrapper #syst {
     margin-left: 0px;
     margin-top: 1rem;
+  }
+  #blogs .wrapper {
+    flex-direction: column;
+    gap: 0px;
+    margin: 2rem 2rem 0rem 2rem;
+  }
+  #blogs .wrapper aside {
+    margin-top: 2rem;
+    width: 80%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
