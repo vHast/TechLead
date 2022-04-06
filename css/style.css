@@ -303,4 +303,15 @@ a {
 #blogs .wrapper #blog3 {
   border-color: #ff3c7d;
 }
+
+footer {
+  padding: 0.5rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */

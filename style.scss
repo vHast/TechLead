@@ -312,3 +312,14 @@ a {
     }
   }
 }
+
+footer {
+  padding: 0.5rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
