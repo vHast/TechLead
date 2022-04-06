@@ -97,7 +97,6 @@ a {
   width: 77%;
   background-image: url(/img/background.jpg);
   height: 50vh;
-  border-bottom: solid 3px #00004e;
 }
 
 #showcase section div {
@@ -125,9 +124,10 @@ a {
   display: flex;
   flex-direction: column;
   margin-right: 2rem;
-  max-width: 250px;
+  width: 350px;
   color: white;
   height: 292px;
+  margin-left: 2rem;
 }
 
 #showcase section aside h1 {
@@ -147,12 +147,14 @@ a {
 #intro {
   padding: 2rem 0rem;
   display: flex;
-  width: 77%;
+  height: 50vh;
   justify-content: center;
+  align-items: center;
 }
 
 #intro article {
   width: 42%;
+  height: fit-content;
 }
 
 #intro article h1 {
@@ -163,5 +165,19 @@ a {
 #intro article p {
   margin-bottom: 1rem;
   font-size: 1.2rem;
+}
+
+#intro article a {
+  margin-top: 1rem;
+}
+
+#intro aside figure {
+  margin-left: 2rem;
+}
+
+#intro aside figure img {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */

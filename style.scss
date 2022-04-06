@@ -97,7 +97,6 @@ a {
     width: 77%;
     background-image: url(/img/background.jpg);
     height: 50vh;
-    border-bottom: solid 3px rgb(0, 0, 78);
 
     div {
       margin-left: 4rem;
@@ -127,9 +126,10 @@ a {
       display: flex;
       flex-direction: column;
       margin-right: 2rem;
-      max-width: 250px;
+      width: 350px;
       color: white;
       height: 292px;
+      margin-left: 2rem;
 
       h1 {
         font-size: 1.8rem;
@@ -151,11 +151,13 @@ a {
 #intro {
   padding: 2rem 0rem;
   display: flex;
-  width: 77%;
+  height: 50vh;
   justify-content: center;
+  align-items: center;
 
   article {
     width: 42%;
+    height: fit-content;
 
     h1 {
       margin-bottom: 0.8rem;
@@ -165,6 +167,25 @@ a {
     p {
       margin-bottom: 1rem;
       font-size: 1.2rem;
+    }
+
+    a {
+      margin-top: 1rem;
+    }
+
+    
+
+  }
+
+  aside {
+
+    figure {
+      margin-left: 2rem;
+      img {
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+      }
     }
   }
 }
