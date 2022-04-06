@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Section 1.0 - Navbar */
@@ -25,10 +25,16 @@ a {
   color: #61b0ff;
 }
 
+.bolder {
+  font-weight: bold;
+}
+
 .btn {
   background-color: #61b0ff;
   padding: 0.5rem 2rem;
   color: white;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .navbar {
@@ -228,5 +234,71 @@ a {
 #currentcourses .wrapper #syst {
   margin-left: 5px;
   background-image: url(/img/sysadmin.jpg);
+}
+
+#blogs {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#blogs .wrapper {
+  margin: 2rem 14rem 0rem 14rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+#blogs .wrapper aside {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top: 10px solid black;
+  width: 33%;
+  height: 27rem;
+  border-radius: 5px;
+  background-color: #d6d6d6;
+}
+
+#blogs .wrapper aside h1 {
+  padding: 2rem 1rem;
+  color: black;
+  font-size: 1.4rem;
+}
+
+#blogs .wrapper aside p {
+  align-self: flex-start;
+  text-align: left;
+  font-size: 1.1rem;
+  padding: 0 1.3rem;
+}
+
+#blogs .wrapper aside .author {
+  text-align: right;
+  align-self: flex-end;
+  color: #292929;
+  font-size: 1rem;
+}
+
+#blogs .wrapper aside .btn {
+  margin-top: 1rem;
+  align-self: center;
+  width: fit-content;
+  background-color: #414141;
+  margin-bottom: 2rem;
+}
+
+#blogs .wrapper #blog1 {
+  border-color: yellowgreen;
+}
+
+#blogs .wrapper #blog2 {
+  border-color: #3c4fff;
+}
+
+#blogs .wrapper #blog3 {
+  border-color: #ff3c7d;
 }
 /*# sourceMappingURL=style.css.map */

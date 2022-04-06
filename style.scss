@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Section 1.0 - Navbar */
@@ -26,10 +26,16 @@ a {
   color: rgb(97, 176, 255);
 }
 
+.bolder {
+  font-weight: bold;
+}
+
 .btn {
   background-color: rgb(97, 176, 255);
   padding: 0.5rem 2rem;
   color: white;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .navbar {
@@ -197,6 +203,7 @@ a {
   width: 100%;
   text-align: center;
   padding-bottom: 2rem;
+
   .wrapper {
     margin: 2rem 14rem 0rem 14rem;
     display: flex;
@@ -234,6 +241,72 @@ a {
     #syst {
       margin-left: 5px;
       background-image: url(/img/sysadmin.jpg);
+    }
+  }
+}
+
+#blogs {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+
+  .wrapper {
+    margin: 2rem 14rem 0rem 14rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+    aside {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      border-top: 10px solid black;
+      width: 33%;
+      height: 27rem;
+      border-radius: 5px;
+      background-color: rgb(214, 214, 214);
+
+      h1 {
+        padding: 2rem 1rem;
+        color: black;
+        font-size: 1.4rem;
+      }
+
+      p {
+        align-self: flex-start;
+        text-align: left;
+        font-size: 1.1rem;
+        padding: 0 1.3rem;
+      }
+
+      .author {
+        text-align: right;
+        align-self: flex-end;
+        color: rgb(41, 41, 41);
+        font-size: 1rem;
+      }
+
+      .btn {
+        margin-top: 1rem;
+        align-self: center;
+        width: fit-content;
+        background-color: rgb(65, 65, 65);
+        margin-bottom: 2rem;
+      }
+    }
+
+    #blog1 {
+      border-color: yellowgreen;
+    }
+
+    #blog2 {
+      border-color: rgb(60, 79, 255);
+    }
+
+    #blog3 {
+      border-color: rgb(255, 60, 125);
     }
   }
 }
