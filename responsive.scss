@@ -1,3 +1,28 @@
+
+@media(max-width:1280px) {
+  /* Section 1.1 Navbar hamburger menu*/
+  #showcase {
+    section {
+      width: 95%;
+      div{
+        margin-left: 0rem;
+
+        figure {
+
+          img {
+            width: 150px;
+            height: 150px;
+          }
+        }
+
+        h1 {
+          font-size: 2.8rem;
+        }
+      }
+    }
+  }
+}
+
 @media(max-width:768px) {
   /* Section 1.1 Navbar hamburger menu*/
   .hamburger {
@@ -35,5 +60,35 @@
 
   .nav-menu.active {
     left: 0;
+  }
+
+  #showcase {
+    section {
+      height: fit-content;
+      width: 100%;
+      flex-direction: column;
+
+      div{
+
+        figure {
+
+          img {
+            width: 140px;
+            height: 140px;
+          }
+        }
+
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+      aside {
+        text-align: center;
+        max-width: none;
+        width: 100%;
+        margin-right: 0rem;
+        padding: 0 2rem 1rem 2rem;
+      }
+    }
   }
 }

@@ -74,4 +74,62 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: dodgerblue;
 }
+
+#showcase {
+  display: flex;
+  justify-content: center;
+}
+
+#showcase section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  background-image: url(/img/background.jpg);
+  height: 50vh;
+}
+
+#showcase section div {
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+#showcase section div figure img {
+  width: 250px;
+  height: 250px;
+}
+
+#showcase section div h1 {
+  text-shadow: black 2px 2px 5px;
+  color: white;
+  font-size: 3.7rem;
+}
+
+#showcase section div h1 span {
+  color: #3796f5;
+}
+
+#showcase section aside {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  max-width: 226px;
+  color: white;
+  height: 292px;
+}
+
+#showcase section aside h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#showcase section aside h1 span {
+  color: #3796f5;
+}
+
+#showcase section aside h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
 /*# sourceMappingURL=style.css.map */

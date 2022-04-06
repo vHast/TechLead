@@ -76,3 +76,63 @@ a {
   background-color: dodgerblue;
 }
 
+#showcase {
+  display: flex;
+  justify-content: center;
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    background-image: url(/img/background.jpg);
+    height: 50vh;
+
+    div {
+      margin-left: 4rem;
+      display: flex;
+      align-items: center;
+
+      figure { 
+
+        img {
+          width: 250px;
+          height: 250px;
+        }
+      }
+  
+      h1 {
+        text-shadow: black 2px 2px 5px;
+        color: white;
+        font-size: 3.7rem;
+  
+        span {
+          color: rgb(55, 150, 245);
+        }
+      }
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      margin-right: 2rem;
+      max-width: 226px;
+      color: white;
+      height: 292px;
+
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+
+        span {
+          color: rgb(55, 150, 245);
+        }
+      }
+
+      h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
