@@ -428,6 +428,64 @@ a {
   text-align: center;
 }
 
+#contactinfo {
+  display: flex;
+  justify-content: center;
+  height: 95vh;
+}
+
+#contactinfo .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+#contactinfo .wrapper section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactinfo .wrapper section img {
+  width: 300px;
+  border-radius: 5px;
+}
+
+#contactinfo .wrapper section h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0 2rem;
+}
+
+#contactinfo .wrapper section h2 {
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+#contactinfo .wrapper section h4 {
+  margin-top: 1.5rem;
+}
+
+#contactinfo .wrapper section a {
+  color: blue;
+}
+
+#contactinfo .wrapper #subtitle p {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+#contactinfo .wrapper #subtitle ul {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#contactinfo .wrapper #subtitle ul li span {
+  color: red;
+}
+
 footer {
   text-align: center;
   padding: 0.5rem 0rem;
