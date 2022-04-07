@@ -50,3 +50,18 @@ Once you've done this, the webiste will ask you to connect to a Git provider, it
 
 
 
+
+
+Let's get one thing straight, exposure is one of the things that we greatly look upon, since it gives us the opportunity to makes us visible to possible clients and gives us the chance to offer our products and services to them.
+
+We could combine the best marketing ideas, ways to convince the potential client using the right words, but there's one tiny mistake that we're commiting here.
+
+No amount of marketing or complex verbose will convince an Google's site crawler about what our website is offering or selling.
+
+We need to find the right tools, and for that we need to take a deep look at the META tags that HTML5 offers in order to generate more traffic.
+
+This is considered the most important tag that you should place in your HTML, any search engine needs to know what the content of your website is, and the title tag describes the topic of each page or piece of content on your website.
+
+The meta tags are a couple of keywords that will provide information that further describe what the content is about.
+
+For example in the meta description, we should pair the words that are the focus of the item
