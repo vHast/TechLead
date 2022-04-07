@@ -387,6 +387,57 @@ a {
     }
   }
 }
+
+.course {
+  article {
+    padding-bottom: 40px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    figure {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      h1 {    
+        font-size: 3rem;
+      }
+    }
+
+    section {
+      padding-top: 1rem;
+      width: 900px;
+      display: flex;
+      flex-direction: column;
+
+
+      h2 {
+        text-align: center;
+        font-size: 2rem;
+      }
+  
+      p {
+        padding-top: 1rem;
+        font-size: 1.5rem;
+      }
+
+      a {
+        align-self: center;
+        margin: 1rem;
+        max-width: 30rem;
+        min-height: 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(20, 20, 66);
+      }
+    }
+  }
+}
 footer {
   text-align: center;
   padding: 0.5rem 0rem;
