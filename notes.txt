@@ -1,0 +1,28 @@
+It is very probable that you may have heard of the Bash Shell if you've taken interest in getting certified in the CompTIA Linux+ XKO-004 Certification.
+
+For beginners that don't know what a shell is, it's basically a computer program that presents a command line interface which allows you to control your computer using commands entered with a keyboard instead of controlling graphical user interfaces(GUIs).
+
+Bash is simply the default interpreter on many GNU/Linux systems, before continuing we'd like you to invite to install any Linux distribution to get started using Bash, Mint works wonders for beginners.
+
+Even if you're not interested in server administration, it works wonders for upstarting your productivity once you get the hang of it.
+
+To start your Bash terminal, locate the icon, or simply press Ctrl + Alt + T
+
+Your first task will be to determine which is your default interpreter
+
+$ echo $SHELL 
+/bin/bash 
+
+This is a good practice since we need to determine which our default interpreter is, as there are several other shell interpreters available, such as the C shell.
+
+In order to navigate through our folders, we are going to need to learn a few commands.
+
+The important ones are pwd, ls, and cd.
+
+pwd will print your current location.
+
+ls will list the files in your current location, you can also add -a after ls in order to see the hidden files.
+
+In order to access any of these locations, all you have to do is type cd and the folder you're interested in accessing.
+
+Once inside the folder you are, you can always go back with cd ..
