@@ -30,6 +30,12 @@
   .blogpost .wrapper .blogcontent {
     width: 700px;
   }
+  .course article {
+    margin: 0 5rem;
+  }
+  .course article section {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -140,6 +146,9 @@
   }
   .blogpost .wrapper .blogcontent img {
     width: 95%;
+  }
+  .course article {
+    margin: 0 2rem;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

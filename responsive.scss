@@ -53,6 +53,15 @@
       }
     }
   }
+
+  .course {
+    article {
+      margin: 0 5rem;
+      section {
+        width: 100%;
+      }
+    }
+  }
 }
 
 
@@ -206,6 +215,12 @@
           width: 95%;
         }
       }
+    }
+  }
+
+  .course {
+    article {
+      margin: 0 2rem;
     }
   }
 
