@@ -156,5 +156,15 @@
   .course article {
     margin: 0 2rem;
   }
+  .course article figure {
+    text-align: center;
+  }
+  .course article figure img {
+    width: 100px;
+    height: 100px;
+  }
+  .course article figure h1 {
+    font-size: 1.8rem;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */
