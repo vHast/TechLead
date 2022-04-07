@@ -138,5 +138,8 @@
     width: 100%;
     font-size: 1.3rem;
   }
+  .blogpost .wrapper .blogcontent img {
+    width: 95%;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */
