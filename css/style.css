@@ -359,6 +359,10 @@ a {
   font-size: 1.9rem;
 }
 
+.blogpost .wrapper .blogcontent img {
+  margin: 1rem 0rem;
+}
+
 .blogpost .wrapper .blogcontent .codeblock {
   border-radius: 5px;
   padding: 0.5rem 2rem;
